@@ -7,7 +7,8 @@ Used to store all of our IT162 configuration information
 
 */
 
-//echo basename($_SERVER['PHP_SELF']);
+//echo $_SERVER['PHP_SELF'];
+
 
 define("THIS_PAGE", basename($_SERVER['PHP_SELF']));
 
@@ -16,7 +17,7 @@ define("THIS_PAGE", basename($_SERVER['PHP_SELF']));
 //die;
 
 // this switch section alters the title and logo depending on the page
-$logo_color = ''; //make logo_color an empty string by default
+//$logo_color = ''; //make logo_color an empty string by default
 
 switch(THIS_PAGE){
         
@@ -27,7 +28,8 @@ switch(THIS_PAGE){
         
     case "flowchart.php":
         $title = "Edwin's IT162 flowchart page";
-        $logo = "fa-pencil-squre-o";
+        $logo = "fa-universal-access";
+        $logo_color = ' style="color:#00f"';
     break;
         
     case "aia.php":
@@ -38,7 +40,7 @@ switch(THIS_PAGE){
         
     case "contactme.php":
         $title = "Edwin's IT162 contact page";
-        $logo = "fa-pencil-plane-o";
+        $logo = "fa-paper-plane-o";
         $logo_color = ' style="color:#0f0"';
     break;
         
@@ -48,12 +50,6 @@ switch(THIS_PAGE){
         
 } // end of switch section 
 
-$nav1["index.php"] = "Welcome";
-$nav1["big/index.php"] = "Big";
-$nav1["aia.php"] = "AIA";
-$nav1["flowchart.php"] = "Flowchart";
-$nav1["fp/index.php"] = "Final Project";
-$nav1["contactme.php"] = "Contact Edwin";
 
 /* 
 here is the function to generate links and keep
@@ -67,22 +63,29 @@ the highlights on the current page
       <li><a href="contactme.php">Contact Edwin</a></li>
 */
 
+$nav1['index.php'] = "Welcome";
+$nav1['big/index.php'] = "Big";
+$nav1['aia.php'] = "AIA";
+$nav1['flowchart.php'] = "Flowchart";
+$nav1['fp/index.php'] = "Final Project";
+$nav1['contactme.php'] = "Contact Edwin";
+
 function makeLinks($linkArray) 
 {
-    /*
-    $myReturn = "";
-    foreach($nav1 as $url => $text){
-        if ($url == THIS_PAGE) {
-            $myReturn .= "<li><a class=\"selected\" href=\"$url\">$text</a></li>";
-        } 
-        else {
-            $myReturn .= "<li><a href=\"$url\">$text</a></li>";
-        }
-        
-        
-    } 
-    */
-    
+//    /*
+//    $myReturn = "";
+//    foreach($nav1 as $url => $text){
+//        if ($url == THIS_PAGE) {
+//            $myReturn .= "<li><a class=\"selected\" href=\"$url\">$text</a></li>";
+//        } 
+//        else {
+//            $myReturn .= "<li><a href=\"$url\">$text</a></li>";
+//        }
+//        
+//        
+//    } 
+//    */
+//    
     $myReturn = "";
      foreach($linkArray as $url => $text)
      {
@@ -95,8 +98,7 @@ function makeLinks($linkArray)
             $myReturn .= '<li><a href="' . $url . '">' . $text . '</a></li>'  . PHP_EOL;
         }
         
-        
-    }
+      }
     
     return $myReturn;
 }
