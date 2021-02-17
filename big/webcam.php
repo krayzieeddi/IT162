@@ -1,9 +1,8 @@
 <?php include "includes/header.php"?>
 <!-- START LEFT COL ////////////////////////////// -->
 
- <p><strong>Hi, my name is Edwin Ho</strong> and I'm a second year student in the AA computer science program at seattle central community college. I was born and raised in Seattle.</p>
-    
- <form>add multiple.php client form here</form>
+ <p>iframe two differenet kinds of web cam on this page.</p> 
+ <p>Left column will be a live youtube video</p>
 
 </section>
 <!-- END LEFT COL //////////////////////////// -->
@@ -11,9 +10,10 @@
 <!-- START RIGHT COL /////////////////////////////////// -->
 <aside >
     
- <h3>basic web design cycle</h3>
+ <h3>DOT camera</h3>
 
- <p>Provide 3 resources that help you with stuff</p>
+ <p>explain video here</p>
+ <p>left video will be a live department of transportaion that come from a live feed</p>
 
 </aside>
 <!-- END RIGHT COL ///////////////////////////////////// -->
