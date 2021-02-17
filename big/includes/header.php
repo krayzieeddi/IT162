@@ -1,14 +1,13 @@
+<?php include "big-config.php"?>
 <!DOCTYPE html>
 <html lang="en">
     
 <head>
 <meta charset="utf-8">    
-<title>Edwin's Big page</title> 
+<title><?=$title?></title> 
     
 <meta name="viewport" content=”width=device-width, initial-scale=1.0”> <!-- enables the dynamic media resolution -->
 <meta name="robots" content="noindex,nofollow"> <!-- tells official bots not to index my page -->
-  
-
     
 <link rel="stylesheet" href="css/nav.css" >
 <link rel="stylesheet" href="css/big.css" >
@@ -19,7 +18,6 @@
 <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
 <script src="js/script.js"></script>
 
-    
 </head> 
 <!-- end of head //////////////////////////////////// -->
 
@@ -30,13 +28,13 @@
     
 <header> <!-- start of header //////////////////////////////////// -->
     
-  <h1><a href="index.php"><i class="logo fa fa-home"></i>Edwin Ho's Big page</a></h1>
+  <h1><a href="index.php"><i class="logo fa <?=$logo?>"></i>Edwin Ho's Big page</a></h1>
     
 <!-- START nav section //////////////////////////////////// -->
   <nav id="cssmenu">
     
   <ul>
-     <li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> WEB120</span></a></li>
+     <li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> IT162</span></a></li>
      <li><a href="index.php"><span><i class="fa fa-fw fa-home"></i> BIG</span></a></li>
      <li><a href="flexbox.php"><span><i class="fa fa-fw fa-cube"></i> Flexbox</span></a></li>
      <li><a href="galleries.php"><span><i class="fa fa-fw fa-camera-retro"></i> Galleries</span></a></li>
@@ -56,3 +54,7 @@
 <!-- END nav section //////////////////////////////////// -->
 </header> 
 <!-- end of header //////////////////////////////////// -->  
+    
+<section>
+    
+ <h2 class="pageID"><?=$pageId?></h2>

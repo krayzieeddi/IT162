@@ -1,8 +1,6 @@
 <?php include "includes/header.php"?>
 <!-- START LEFT COL ////////////////////////////// -->
-<section>
-    
- <h2 class="pageID">Welcome</h2>
+
     
  <p><strong>Hi, my name is Edwin Ho</strong> and I'm a second year student in the AA computer science program at seattle central community college. I was born and raised in Seattle.</p>
     
