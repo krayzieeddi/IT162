@@ -64,9 +64,9 @@ switch(THIS_PAGE){
     break;
         
     case "shoppingcarts.php":
-        $title = "shoppingcarts";
+        $title = "Shoppingcarts";
         $logo = "fa-universal-access";
-        $pageId = "shoppingcarts";
+        $pageId = "Shoppingcarts";
     break;
         
     case "siteapp.php":

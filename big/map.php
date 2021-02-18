@@ -1,7 +1,9 @@
 <?php include "includes/header.php"?>
 <!-- START LEFT COL ////////////////////////////// -->
 
- <p>iframe a responsive google map to thing here</p>
+ <div class="embed-container">
+     iframe in a responsive google map and map it college
+</div>
     
 
 </section>
@@ -10,10 +12,9 @@
 <!-- START RIGHT COL /////////////////////////////////// -->
 <aside >
     
- <h3>contact?</h3>
+ <h3>seattle central college address</h3>
 
- <p>add stuff here</p>
- <p>add address</p>
+ <p>campus address and phone</p>
 
 </aside>
 <!-- END RIGHT COL ///////////////////////////////////// -->

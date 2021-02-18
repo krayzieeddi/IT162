@@ -25,10 +25,10 @@
 <body>
 <!-- START WRAPPER main //////////////////////////////////// -->
 <main class="wrapper"> 
+<!-- start of header //////////////////////////////////// -->
+<header> 
     
-<header> <!-- start of header //////////////////////////////////// -->
-    
-  <h1><a href="index.php"><i class="logo fa <?=$logo?>"></i>Edwin Ho's Big page</a></h1>
+  <h1><a href="index.php"><i class="logo fa <?=$logo?>"></i>Edwin Ho's Web dev</a></h1>
     
 <!-- START nav section //////////////////////////////////// -->
   <nav id="cssmenu">
@@ -39,11 +39,13 @@
      <li><a href="flexbox.php"><span><i class="fa fa-fw fa-cube"></i> Flexbox</span></a></li>
      <li><a href="galleries.php"><span><i class="fa fa-fw fa-camera-retro"></i> Galleries</span></a></li>
      <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Google</span></a>
+<!-- ////////// START of sub menu for the google dropdown ///////////////////   -->
         <ul>
            <li><a href="calendar.php"><span><i class="fa fa-fw fa-calendar"></i> Calendar</span></a></li>
            <li><a href="map.php"><span><i class="fa fa-fw fa-map-o"></i> Map</span></a></li>
            <li><a href="youtube.php"><span><i class="fa fa-fw fa-youtube-square"></i> YouTube</span></a></li>
         </ul>
+<!--  ////////  END of sub menu for the google dropdown ///////////////////   -->
      </li>
      <li><a href="shoppingcarts.php"><span><i class="fa fa-fw fa-shopping-basket"></i> Shopping Carts</span></a></li>
      <li><a href="siteapp.php"><span><i class="fa fa-fw fa-html5"></i> Site vs App</span></a></li>
@@ -55,6 +57,7 @@
 </header> 
 <!-- end of header //////////////////////////////////// -->  
     
+<!--START of section ////////////////////////////////////// -->
 <section>
     
  <h2 class="pageID"><?=$pageId?></h2>

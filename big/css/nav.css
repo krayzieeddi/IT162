@@ -130,7 +130,7 @@
   color: #fff;
   text-shadow: 0 1px 1px #000;
 }
-/* Sub menu ------------------------------------------------- */
+/* Sub menu section ------------------------------------------------- */
 #cssmenu ul ul {
   background: #F9F9F9;
   border: 1px solid #CCC;
@@ -148,6 +148,8 @@
   width: 200px;
   z-index: 1;
 }
+/*end of sub menu section ------------------------------------------- */
+
 @media all and (max-width: 480px) {
   #cssmenu ul ul {
     position: relative;

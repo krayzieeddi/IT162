@@ -1,7 +1,9 @@
 <?php include "includes/header.php"?>
 <!-- START LEFT COL ////////////////////////////// -->
 
- <p>iframe a responsive youtube about wed dev to thing here</p>
+<div class="embed-container">
+     iframe in a responsive youtube video that supports thing.
+</div>
     
 
 </section>
@@ -13,7 +15,7 @@
  <h3>video info</h3>
 
  <p>explain video here</p>
- <p>add stuff maybe</p>
+ <p>provide links to support video</p>
 
 </aside>
 <!-- END RIGHT COL ///////////////////////////////////// -->

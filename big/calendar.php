@@ -1,7 +1,9 @@
 <?php include "includes/header.php"?>
 <!-- START LEFT COL ////////////////////////////// -->
 
- <p>iframe a responsive google calender to thing here and it should have a one event on the calendar that is clickable with a description</p>
+ <div class="embed-container">
+     iframe in a responsive calendar and it will have an link to supportive website.
+</div>
     
 
 </section>

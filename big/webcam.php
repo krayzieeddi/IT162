@@ -1,8 +1,9 @@
 <?php include "includes/header.php"?>
 <!-- START LEFT COL ////////////////////////////// -->
 
- <p>iframe two differenet kinds of web cam on this page.</p> 
- <p>Left column will be a live youtube video</p>
+<div class="embed-container">
+     iframe in a responsive live youtube video and other live feed.
+</div>
 
 </section>
 <!-- END LEFT COL //////////////////////////// -->
@@ -12,8 +13,9 @@
     
  <h3>DOT camera</h3>
 
- <p>explain video here</p>
- <p>left video will be a live department of transportaion that come from a live feed</p>
+ <div class="dot">
+     iframe in a refreshing web page.
+ </div>
 
 </aside>
 <!-- END RIGHT COL ///////////////////////////////////// -->

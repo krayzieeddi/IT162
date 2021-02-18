@@ -1,7 +1,7 @@
 <?php include "includes/header.php"?>
 <!-- START LEFT COL ////////////////////////////// -->
 
- <p><strong>Hi, my name is Edwin Ho</strong> and I'm a second year student in the AA computer science program at seattle central community college. I was born and raised in Seattle.</p>
+ <p>place the modified verison of the multiple.php contact form here</p>
     
  <form>add multiple.php client form here</form>
 
@@ -13,7 +13,7 @@
     
  <h3>basic web design cycle</h3>
 
- <p>Provide 3 resources that help you with stuff</p>
+ <p>Provide 3 resources that help you with developing web sites like https://business.tutsplus.com/articles/... </p>
 
 </aside>
 <!-- END RIGHT COL ///////////////////////////////////// -->
