@@ -2,7 +2,7 @@
 <!-- START LEFT COL ////////////////////////////// -->
 
 <div class="embed-container">
-     iframe in a responsive live youtube video and other live feed.
+     <iframe src='https://www.youtube.com/embed/EEIk7gwjgIM' frameborder='0' allowfullscreen></iframe>
 </div>
 
 </section>
@@ -13,9 +13,7 @@
     
  <h3>DOT camera</h3>
 
- <div class="dot">
-     iframe in a refreshing web page.
- </div>
+ <p>Cannot find a live traffic feed on their website for some reason.</p>
 
 </aside>
 <!-- END RIGHT COL ///////////////////////////////////// -->

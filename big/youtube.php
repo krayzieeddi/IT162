@@ -2,7 +2,7 @@
 <!-- START LEFT COL ////////////////////////////// -->
 
 <div class="embed-container">
-     iframe in a responsive youtube video that supports thing.
+     <iframe src='https://www.youtube.com/embed/COL_qPL5xsg' frameborder='0' allowfullscreen></iframe>
 </div>
     
 
@@ -12,10 +12,11 @@
 <!-- START RIGHT COL /////////////////////////////////// -->
 <aside >
     
- <h3>video info</h3>
+ <h3>Other helpful SEO links</h3>
 
- <p>explain video here</p>
- <p>provide links to support video</p>
+ <p><a href="https://developers.google.com/search/docs/beginner/seo-starter-guide"> Google SEO starter guide</a></p>
+    
+ <p><a href="https://www.searchenginejournal.com/seo-guide/">Search Engine Journel's complete guide</a></p>
 
 </aside>
 <!-- END RIGHT COL ///////////////////////////////////// -->

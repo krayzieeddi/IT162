@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<meta charset="utf-8">    
+<title>Edwin's Big page</title> 
+    
+<meta name="viewport" content=”width=device-width, initial-scale=1.0”> <!-- enables the dynamic media resolution -->
+<meta name="robots" content="noindex,nofollow"> <!-- tells official bots not to index my page -->
+  
+
+    
+<link rel="stylesheet" href="css/nav.css" >
+<link rel="stylesheet" href="css/big.css" >
+<link rel="stylesheet" href="css/form.css" >
+<link rel="stylesheet" href="css/contact-form.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
+<script src="js/script.js"></script>
+
+    
+</head> 
+<!-- end of head //////////////////////////////////// -->
+
+<!-- START of body  //////////////////////////////////// -->
+<body>
+<!-- START WRAPPER main //////////////////////////////////// -->
+<main class="wrapper"> 
+    
+<header> <!-- start of header //////////////////////////////////// -->
+    
+  <h1><a href="index.php"><i class="logo fa fa-home"></i>Edwin Ho's Big page</a></h1>
+    
+<!-- START nav section //////////////////////////////////// -->
+  <nav id="cssmenu">
+    
+  <ul>
+     <li><a href="../index.php"><span><i class="fa fa-fw fa-bank"></i> WEB120</span></a></li>
+     <li><a href="index.php"><span><i class="fa fa-fw fa-home"></i> BIG</span></a></li>
+     <li><a href="flexbox.php"><span><i class="fa fa-fw fa-cube"></i> Flexbox</span></a></li>
+     <li><a href="galleries.php"><span><i class="fa fa-fw fa-camera-retro"></i> Galleries</span></a></li>
+     <li><a href="#"><span><i class="fa fa-fw fa-chevron-down"></i> Google</span></a>
+        <ul>
+           <li><a href="calendar.php"><span><i class="fa fa-fw fa-calendar"></i> Calendar</span></a></li>
+           <li><a href="map.php"><span><i class="fa fa-fw fa-map-o"></i> Map</span></a></li>
+           <li><a href="youtube.php"><span><i class="fa fa-fw fa-youtube-square"></i> YouTube</span></a></li>
+        </ul>
+     </li>
+     <li><a href="shoppingcarts.php"><span><i class="fa fa-fw fa-shopping-basket"></i> Shopping Carts</span></a></li>
+     <li><a href="siteapp.php"><span><i class="fa fa-fw fa-html5"></i> Site vs App</span></a></li>
+     <li><a href="webcam.php"><span><i class="fa fa-fw fa-eye"></i> Web Cam</span></a></li>
+  </ul>
+
+  </nav>
+<!-- END nav section //////////////////////////////////// -->
+</header> 
+<!-- end of header //////////////////////////////////// -->   
+    
+<!-- START LEFT COL ////////////////////////////// -->
+<section>
+    
+ <h2 class="pageID">Welcome</h2>
+    
+<!-- START  OF TEST HTML BODY CONTENT ///////////////////////////////////// -->
+    
+ <!-- START LEFT COL ////////////////////////////// -->
+
+ <p><i>“The way you display your content can say a lot about you or your company. Having nice content and knowing how to show your content properly in a clean way that your user can understand is really important.”</i> (Maldonado) Only just a few years ago web developers were using float, inline-blocking, and positioning CSS tricks to mad their layouts work.</p>
+
+ <p>Now with flexbox, we now have a new layout tool for developers to use. Flexbox is also very using in maintenance and refactoring for its one-dimensional layout system can create vertical and horizontal compositions without using all the old tricks.</p>
+
+ <p>When considering when to use flexbox is when your site is only going to have a small UI design when you need to align elements within a container, and to layout, your content before you have a final design in mind. You have the ability to build your entire site just by using flexbox, but ideally when your site’s UI design is small or just for mobile. In combination with using a CSS grid, you would have many options and flexibility with your site.</p>
+
+ <p>For bigger more complex sites you would want to use a CSS grid and then use flexbox within the containers in the grid to layout more content. But overall just remember that grid is for layout while flexbox is for alignment of content.</p>
+
+ <p><i>“Flexbox is very well supported across modern browsers, however, there are a few issues that you might run into.”</i>(Backwards Compatibility of flexbox) Even though flexbox is somewhat new, support for the new browser is really good. But as you go further into older websites there will be conflicts as bugs sprout up for older versions of websites. Each bug is currently catalog on <a href="https://github.com/philipwalton/flexbugs">github.com/philipwalton/flexbugs</a> does have a workaround.</p>
+    
+    
+
+</section>
+<!-- END LEFT COL //////////////////////////// -->
+
+<!-- START RIGHT COL /////////////////////////////////// -->
+<aside >
+    
+ <h3>Works cited</h3>
+
+ <p>Budiu, Raluca. “Mobile Websites: Mobile-Dedicated, Responsive, Adaptive, or
+Desktop Site?” Nielsen Norman Group, 14 Feb. 2016, <br/>
+<a href="https://www.nngroup.com/articles/mobile-vs-responsive/#:~:text=Mobile%2Ddedicated%20sites%20are%20designed%20for%20mobile%20phones.&text=Responsive%2Ddesign%20sites%20are%20sites,and%20are%20not%20mobile%20optimized">nngroup.com - Mobile Websites: Mobile-Dedicated, Responsive, Adaptive, or Desktop Site?</a> <br/> Accessed 6 February 2021.
+</p>
+    
+ <p>Labus, Matt. “Mobile-friendly vs. Responsive Design.” Medium, 21 June 2018,<br/>
+<a href="https://medium.com/lumavate/mobile-friendly-vs-responsive-design-839bc0007616">medium.com - Mobile-friendly vs. Responsive Design</a><br/> Accessed 6 February 2021.</p>
+
+</aside>
+    
+ <!-- END OF TEST HTML BODY CONTENT ///////////////////////////////////// -->   
+    
+<!-- START Footer ///////////////////////////////////// -->
+<footer>
+    
+<!-- validator for html and css in this block -->
+    <ul>
+        <li>&copy; 2018 - <?=date("Y")?></li>
+        <li><a href="../contactme.php" target="_blank">Edwin Ho</a></li>
+        <li>All Rights Reserved</li>
+        <li><a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a></li>
+        <li><a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a></li>
+    </ul>
+    
+</footer>
+<!-- END Footer ////////////////////////////// --> 
+    
+</main> 
+<!-- END of main wrapper section /////////////////////////////////////// -->
+
+
+</body>
+</html>

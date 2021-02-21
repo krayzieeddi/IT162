@@ -28,57 +28,57 @@ date_default_timezone_set('America/Los_Angeles'); #sets default
 switch(THIS_PAGE){
         
     case "index.php":
-        $title = "Edwin's Big page";
+        $title = "Edwin's Web dev page of stuff I guess";
         $logo = "fa-home";
         $pageId = "Client Questionaire";
     break;
         
     case "flexbox.php":
         $title = "Flexbox Research";
-        $logo = "fa-universal-access";
+        $logo = "fa-home";
         $pageId = "Flexbox Research";
     break;
         
     case "galleries.php":
         $title = "Galleries";
-        $logo = "fa-universal-access";
+        $logo = "fa-home"
         $pageId = "Galleries";
     break;
         
     case "calendar.php":
         $title = "Google calendar";
-        $logo = "fa-universal-access";
-        $pageId = "Google calendar";
+        $logo = "fa-home";
+        $pageId = "Pax West Calendar Event";
     break;
         
     case "map.php":
         $title = "Google map";
-        $logo = "fa-universal-access";
-        $pageId = "Google map.";
+        $logo = "fa-home";
+        $pageId = "Seattle Central College";
     break;
         
     case "youtube.php":
         $title = "Youtube";
-        $logo = "fa-universal-access";
-        $pageId = "Youtube";
+        $logo = "fa-home";
+        $pageId = "What is SEO(Search Engine Optimization)";
     break;
         
     case "shoppingcarts.php":
         $title = "Shoppingcarts";
-        $logo = "fa-universal-access";
+        $logo = "fa-home";
         $pageId = "Shoppingcarts";
     break;
         
     case "siteapp.php":
         $title = "Responsive vs Native App";
-        $logo = "fa-universal-access";
+        $logo = "fa-home";
         $pageId = "Responsive vs Native App";
     break;
          
     case "webcam.php":
-        $title = "Webcam Cam";
-        $logo = "fa-universal-access";
-        $pageId = "Webcam Cam";
+        $title = "Live Cam";
+        $logo = "fa-home";
+        $pageId = "International Space Station View of Earth";
     break;
         
     default: 
