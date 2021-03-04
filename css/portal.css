@@ -58,6 +58,32 @@ img#desktop {
     margin-left: 10px;
 }
 
+/* AIA grid table stuff -------------------------------- */
+
+.grid-item {
+    background-color: rgba(168, 205, 248, 0.8);
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.grid-list-item {
+    margin-left: 20px;
+}
+
+.table1, .table2 {
+    display: grid;
+    margin: 20px;
+    font-size: 1.1em;
+}
+
+.table1 {
+    grid-template-columns: 30% 50%;
+}
+
+.table2 {
+    grid-template-columns: 30% 30% 30%;
+}
+
 /* Embed Responsively Rules! ------------------ */
 div.embed-container {
     position: relative;
@@ -78,6 +104,7 @@ div.embed-container iframe {
 
 footer {
 	clear:both;
+    padding: 10px;
 }
 
 /* START RESPONSIVE STYLES --------------------- */
