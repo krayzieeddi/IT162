@@ -1,0 +1,83 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* web page sectioning ------------------------------ */
+body {
+    /* background-color: rgb(250, 250, 242); */
+    background: rgb(239, 241, 227);
+    background: -moz-linear-gradient(0deg, rgba(217,221,195,1) 0%, rgba(240,239,231,1) 15%, rgba(252,245,232,1) 95%);
+    background: -webkit-linear-gradient(0deg, rgba(217,221,195,1) 0%, rgba(240,239,231,1) 15%, rgba(252,245,232,1) 95%);
+    background: linear-gradient(0deg, rgba(217,221,195,1) 0%, rgba(240,239,231,1) 15%, rgba(252,245,232,1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d9ddc3",endColorstr="#fcf5e8",GradientType=1);
+}
+.wrapper {
+    margin: 0 auto auto auto;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 45% 45% 10%;
+    grid-template-areas: 
+        "main header"
+        "main nav"
+        "footer footer" ;
+    width: 80%;
+    height: 100vh;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+    font-size: 1.3em;
+    overflow: auto;
+}
+/* main section scroll bar styling ---------- */
+main::-webkit-scrollbar {
+    width: 1em;
+}
+main::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+main::-webkit-scrollbar-thumb {
+  background-color: lightgrey;
+  outline: 1px solid slategrey;
+}
+/* SMALLER elements ------------------------------ */
+h1, h2 {
+    text-align: center;
+}
+p {
+    margin: 20px 100px 20px 100px;
+}
+img {
+    height: 350px;
+    margin-left: 4vw;
+}
+/* START of the media query section ------------------------ */
+/* TABLET secton ------------------ */
+@media screen and (max-width: 1024px) {
+.wrapper {
+    width: 100%;
+    }
+}
+/* MOBILE media section ----------------------- */
+@media screen and (max-width: 750px) {
+.wrapper {
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 80% 10%;
+    grid-template-areas: 
+            "nav"
+            "main"
+            "footer";
+    }
+    header {
+        display: none;
+    }
+    main {
+        font-size: 1.1em;
+    }
+    p {
+        margin: 10px
+    }
+}

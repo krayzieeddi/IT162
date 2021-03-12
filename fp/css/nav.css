@@ -1,0 +1,70 @@
+/* NAV styles css sheet */
+/* NAV section -------------------- */
+nav {
+    grid-area: nav;
+    border-top: 1px grey solid;
+}
+nav ul {
+    font-size: 2em;
+}
+nav li {
+    list-style: none;
+    margin-top: 10px;
+    width: 90px;
+}
+nav li a {
+    width: 100%; /* the width will fill the li fully for hover fill */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+nav li a:hover {
+    background-color: white;
+    color: blue;
+}
+nav ul li:active a {
+    background-color: blue;
+}
+/* FOOTER section ---------------------------------- */
+footer {
+    grid-area: footer;
+    border-top: 1px grey solid;
+    font-size: 1.3em;
+}
+footer ul {
+    justify-content: center;
+    display: flex;
+}
+footer li {
+    float: left;
+    width: auto;
+    margin-left: 20px;
+    list-style: none;
+}
+footer li a {
+    color: black;
+    text-decoration: none;
+}
+footer li a:hover {
+    color: blue;
+}
+/* MEDIA for the nav */
+@media screen and (max-width: 750px) {
+    nav {
+        border-top: none;
+        border-bottom: 1px black solid;
+    }
+    nav ul {
+        justify-content: center;
+        display: flex;
+        font-size: 1.5em;
+    }
+    nav li {
+        width: 33%;
+        float: left;
+    }
+    footer {
+        font-size: 1em;
+    }
+}
