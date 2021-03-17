@@ -34,6 +34,10 @@ switch(THIS_PAGE){
         $title = "professional disclosure statement";
     break;
 
+    case "contact.php":
+        $title = "contacts";
+    break;
+
     default: 
         $title = THIS_PAGE;
 

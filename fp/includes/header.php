@@ -18,7 +18,6 @@
     <div class="wrapper">
 
         <header>
-            <img src="/images/Edwin.jpg">
             <h2>Name here</h2>
         </header>
 
@@ -27,5 +26,12 @@
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="faq.php">FAQ</a></li>
                 <li><a href="pds.php">PDS</a></li>
+                <li class="displayToggle"><a href="contact.php">Contact</a></li>
             </ul>
         </nav>
+
+        <div id="contact">
+            <h2>Contact Information</h2>
+            <p>email here</p>
+            <p>google voice number here</p>
+        </div>

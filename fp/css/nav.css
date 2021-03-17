@@ -2,19 +2,21 @@
 /* NAV section -------------------- */
 nav {
     grid-area: nav;
-    border-top: 1px grey solid;
 }
 nav ul {
     font-size: 2em;
+    margin-top: 30px;
 }
 nav li {
     list-style: none;
     margin-top: 10px;
-    width: 90px;
+    width: 100%;
+    background-image: linear-gradient(rgba(230, 228, 228, 0.883), rgba(182, 182, 182, 0.829))
 }
 nav li a {
-    width: 100%; /* the width will fill the li fully for hover fill */
-    text-align: center;
+    width: 90%; /* the width will fill the li fully for hover fill */
+    text-align: left;
+    margin-left: 20px;
     text-decoration: none;
     display: inline-block;
     color: black;
@@ -26,13 +28,23 @@ nav li a:hover {
 nav ul li:active a {
     background-color: blue;
 }
+#contact {
+    grid-area: "contact";
+    font-size: 1.2em;
+}
+#contact p {
+    margin: 15px 40px;
+}
 /* FOOTER section ---------------------------------- */
 footer {
     grid-area: footer;
     border-top: 1px grey solid;
-    font-size: 1.3em;
+    font-size: 1em;
+    margin-top: 10px;
+    background-image: linear-gradient(lightgray, rgb(142, 141, 148));
 }
 footer ul {
+    margin: 5px auto;
     justify-content: center;
     display: flex;
 }
@@ -49,7 +61,7 @@ footer li a {
 footer li a:hover {
     color: blue;
 }
-/* MEDIA for the nav */
+/* MEDIA for the nav  mobile ------------------------- */
 @media screen and (max-width: 750px) {
     nav {
         border-top: none;
@@ -58,13 +70,26 @@ footer li a:hover {
     nav ul {
         justify-content: center;
         display: flex;
-        font-size: 1.5em;
+        margin: auto;
+        font-size: 1em;
+        height: 100%;
     }
     nav li {
-        width: 33%;
+        width: 25%;
         float: left;
     }
+    nav a {
+        margin-top: 7px;
+    }
     footer {
-        font-size: 1em;
+        font-size: 0.9em;
+    }
+}
+@media screen and (max-width: 417px) {
+    footer {
+        font-size: 0.8em;
+    }
+    footer li {
+        margin-left: 10px;
     }
 }
