@@ -21,7 +21,7 @@ define("THIS_PAGE", basename($_SERVER['PHP_SELF']));
 
 switch(THIS_PAGE){
         
-    case "template.php":
+    case "index.php":
         $title = "Sandra Lopez Home page";
     break;
         
