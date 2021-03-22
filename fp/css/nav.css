@@ -2,6 +2,8 @@
 /* NAV section -------------------- */
 nav {
     grid-area: nav;
+    border-left: 1px grey solid;
+    
 }
 nav ul {
     font-size: 2em;
@@ -11,19 +13,20 @@ nav li {
     list-style: none;
     margin-top: 10px;
     width: 100%;
-    background-image: linear-gradient(rgba(230, 228, 228, 0.883), rgba(182, 182, 182, 0.829))
+    height: 40px;
+    background-image: linear-gradient(rgba(127, 144, 129, 0.883), rgb(63, 78, 68))
 }
 nav li a {
     width: 90%; /* the width will fill the li fully for hover fill */
+    height: 100%;
     text-align: left;
     margin-left: 20px;
     text-decoration: none;
     display: inline-block;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 nav li a:hover {
-    background-color: white;
-    color: blue;
+    color: rgb(233, 233, 233);
 }
 nav ul li:active a {
     background-color: blue;
@@ -31,17 +34,24 @@ nav ul li:active a {
 #contact {
     grid-area: "contact";
     font-size: 1.2em;
+    border-left: 1px grey solid;
+    /* background-color: rgb(58, 133, 58); */
+}
+#contact address {
+    margin-top: 5px;
+    margin-left: 5%;
 }
 #contact p {
-    margin: 15px 40px;
+    margin: 15px 40px 5px 15px;
 }
 /* FOOTER section ---------------------------------- */
 footer {
     grid-area: footer;
     border-top: 1px grey solid;
+    color: rgb(202, 200, 200);
     font-size: 1em;
     margin-top: 10px;
-    background-image: linear-gradient(lightgray, rgb(142, 141, 148));
+    background-image: linear-gradient(rgb(149, 147, 147), rgb(36, 36, 36));
 }
 footer ul {
     margin: 5px auto;
@@ -55,7 +65,7 @@ footer li {
     list-style: none;
 }
 footer li a {
-    color: black;
+    color: rgb(202, 200, 200);
     text-decoration: none;
 }
 footer li a:hover {
